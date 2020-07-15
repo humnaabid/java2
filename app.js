@@ -450,7 +450,16 @@ document.write("1st ramadan from 18 june 2015 is :"+accu)
 //     }
 // }
 // checkPalindrom("<h1>"+"eye"+"</h1>");
-
+// q11
+function capitiliz(){
+  var lettr="the quick brown fox"
+ var capital= lettr.CharAt(0,4,10,17);
+ var cap= capital.toUpperCase();
+  alert(cap)}
+capitiliz();
+  
+  
+  
 //q 12
 function tring(){
   var word = "Web Development tutorial"
