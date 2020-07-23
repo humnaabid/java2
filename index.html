@@ -4,10 +4,158 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="app.js"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <input type="text"  id="result">
     
+    <button onclick=" myFunction()">"power"</button>
+    <a href="#" onclick="link()">click</a>
+
+
+
+    <h1>Mobile-phone</h1>
+    <div class="image">
+        <img src="image/mobile 2.jpg" alt="" onclick="purchase()">
+        <img src="image/mobile 23.jpg" alt="" onclick="purchase()">
+        <img src="image/Mobile-phone.jpg" alt="" onclick="purchase()">
+        <img src="image/nokia_5_3-front-cyan.png" alt="" onclick="purchase()">
+
+    </div>
+    <div>
+<table>
+    <tr >
+        <td>Index</td>
+        <td>Name</td>
+        <td>Class</td>
+    </tr>
+    <tr id="del1">
+    <td>1</td>
+    <td>jhone</td>
+    <td>9</td>
+        <td><input type="button" value="Delete" onclick="del1()"></td>
+
+    </tr>
+    <tr id="del2">
+        <td>2</td>
+        <td>Mark </td>
+        <td>10</td>
+        <td><input type="button" value="Delete" onclick="del2()"></td>
+    </tr>
+    <tr id="del3" >
+        <td>3</td>
+        <td>Doe</td>
+        <td>8</td>
+        <td><input type="button" value="Delete" onclick="del3()"></td>
+    </tr>
+    <tr id=del4>
+        <td>4</td>
+        <td>james</td>
+        <td>7</td>
+        <td><input type="button" value="Delete" onclick="del4()"></td>
+        </tr>
+
+
+
+
+</table>
+    </div>
+
+<div>
+<img id="img" src="image/about-us.jpg" alt=""
+ onmouseover="changeImage('img','image/about-us.jpg')"
+ onmouseout="changeImage('img','image/images.jpg')">
+
+
+</div>
+ 
+    <h1>counter</h1> 
+<div class="rounded">
+    
+        <div>
+            <h1 id=increase>0</h1>
+          
+            
+        </div>
+        <div>
+            <button id=start onclick="start()">increase</button>
+            <button id=pause onclick="pause()">decrease</button>
+            <button id=reset onclick="reset()">Reset</button>
+
+        </div>
+        
+
+    
+    </div>
+    <div>
+        <h1> DOM </h1>
+        <div id=”form-content” class=”content”>
+        <label for=”first-name”>First Name</label>
+        <input type=”text” id=”first-name” />
+        <label for=”last-name”>Last Name</label>
+        <input type=”text” id=”last-name” />
+        <label for=”email”>Email</label>
+        <input type=”text” id=”email” />
+        </div>
+        <div id=”main-content” class=”content”>
+        <p class=”render” id="firstname"> First Name : Alex</p>
+        <p class=”render” id=”lastName”>Last Name: Bank</p>
+        <p class=”render” id="email"> Email : alexbank@example.com</p>
+        <p class=”render”> Country : Pakistan </p>
+        <p class=”render”> contact : +92 300 1234567</p>
+        </div>
+        </div>
+
+
+
+        <p id="slowLoris">
+            Slow lorises are a group of several species of strepsirrhine primates which make up the genus Nycticebus.
+            <a href="javascript:void(0);" onClick="expandLoris();"><em>Click for more.</em></a>
+            </p>
+
+
+
+            <div>
+                <input placeholder="ENTER your details" type="text" id="todo">
+                <button onclick="addTodo()">ADD ITEMs</button>
+                <button onclick="deleteAll()" >DELETE ALL</button>
+                   
+                   
+                   </div>
+                   <div>
+                       <ul id="list"></ul>
+           
+           
+                   </div>
+                   <form onSubmit="checkAddress('email1');">
+                    Email:
+                    <input type="text" id="email1">
+                    <input type="submit" value="Submit">
+                    </form>
+</center>  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="app.js"></script>
+<script src="script.js"></script>
 </body>
 
 

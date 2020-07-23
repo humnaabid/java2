@@ -1,4 +1,4 @@
-
+// Chapter 26 to 38 assingment
 //Task 1 chapter 21 to 25
 //Q 1
 // var st1=prompt("Enter first name")
